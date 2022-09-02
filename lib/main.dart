@@ -54,8 +54,10 @@ class _MyHomePageState extends State<MyHomePage> {
         DateTime now = DateTime.now();
 
         _time = "${now.hour}:${now.minute}:${now.second}";
-        if(_time=="0:0:1"){
+        if(_time=="11:0:0"){
           print("Stop");
+          //timer?.cancel();
+          //print("Stop1");
         }
       });
     });

@@ -64,6 +64,8 @@ class _MyHomePageState extends State<MyHomePage> {
         _time = "${now.hour}:${now.minute}:${now.second}";
         if(_time=="0:0:1"){
           print("Stop");
+          //timer?.cancel();
+          //print("Stop1");
         }
       });
     });
